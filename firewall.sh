@@ -20,7 +20,7 @@ yum install fail2ban -y
 
 #Directory enumeration Scan pwnage & SSH brut pwnage filters activation
 echo "[-] Putting rules"
-echo "[DEFAULT]" >> $jaildir
+echo "[DEFAULT]" > $jaildir
 echo "# Ban hosts for one hour:" >> $jaildir
 echo "bantime = 3600" >> $jaildir
 echo "" >> $jaildir
