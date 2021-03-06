@@ -12,3 +12,11 @@ SSH brutforce protection
 Bots protection
 Apache2 noscript protection
 ```
+
+INSTALL :
+```
+git clone https://github.com/ArianeBlow/RGM-FireWall
+cd RGM-FireWall
+chmod +x firewall.sh 
+sudo ./firewall.sh
+```
