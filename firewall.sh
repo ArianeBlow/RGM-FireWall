@@ -10,7 +10,7 @@ export jaildir="/etc/fail2ban/jail.local"
 
 #check if fail2ban's allready installed
 if [ -d "$DIR" ]; then
-  echo "[*] Fail2Ban's allready installed, Check the logfile for putting our filters !"
+  echo "[*] Fail2Ban's allready installed, Check the script at https://github.com/ArianeBlow/RGM-FireWall/blob/main/firewall.sh to see my rules or post a commit if you have better one !:) "
   exit
   else
     echo "[+] Installing Fail2Ban and putting rules ..."
